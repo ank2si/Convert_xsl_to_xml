@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2010 rel. 3 sp1 (http://www.altova.com) by Regence Employee (Regence Blue Cross Blue Shield) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="SSN_Collection">
+		<xs:annotation>
+			<xs:documentation>SSN_Collection-LETTER</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="SSN_Collection_Letter" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="LOBID" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="GrpID" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="GrpName" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="SubID" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="Template" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientLastName" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientFirstName" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="SubSSN" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="CONF_MAILTO_NAME" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientAddr1" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientAddr2" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientAddr3" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientCity" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientState" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="RecipientZip" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="MemFirstName" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="CompanyNameFull" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="LtrDesc" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="CstSvcPhnNo" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="DeliveryMethod" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="PrintIndicator" minOccurs="0" type="xs:string" nillable="true"/>
+			                <xs:element name="MemDOB" minOccurs="0" type="xs:string" nillable="true"/>
+							<xs:element name="MemGender" minOccurs="0" type="xs:string" nillable="true"/>
+						</xs:all>
+						</xs:complexType>
+						</xs:element>
+						</xs:sequence>
+						</xs:complexType>
+			</xs:element>
+		
+</xs:schema>
